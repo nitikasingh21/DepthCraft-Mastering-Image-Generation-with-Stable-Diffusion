@@ -26,6 +26,4 @@
 
 # Section II
 
-## Can we generate images of different aspect ratios (use “Metadata/No
-crop/2_nocrop.png” to test this out) using SD? Comment on the generation quality
-with respect to the aspect ratio of 1:1 for the same image.
+### Can we generate images of different aspect ratios (use “Metadata/Nocrop/2_nocrop.png” to test this out) using SD? Comment on the generation quality with respect to the aspect ratio of 1:1 for the same image.
