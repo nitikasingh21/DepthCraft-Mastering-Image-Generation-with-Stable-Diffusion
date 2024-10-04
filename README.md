@@ -36,5 +36,5 @@ The assignment has three parts:
 
 Clone this repository:
 ```bash
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
+https://github.com/nitikasingh21/Avataar-Assignment_H1.git
+
