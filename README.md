@@ -22,7 +22,7 @@ The assignment has three parts:
   - `test_results.png`: The generated image compared to the reference image (`test_out.png`).
 
 - `README.md`: This file, containing the setup instructions and project description.
-- `analysis_report.md`: In-depth analysis of the results, including where the approach works well and where it fails.
+- `analysis_report.md`: In-depth analysis of the results, including where the approach works well and where it fails, and answer to the II and III parts of the problem statement.
 
 ## Setup Instructions
 
