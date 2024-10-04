@@ -88,7 +88,7 @@ Example: Switching from float32 to float16 will reduce latency. For example, wit
 **Mixed precision can reduce latency by 20-40%, with little to no visible quality loss.**
 
 ```
-# # Enable mixed precision for faster generation
+# # Enabling mixed precision for faster generation
 pipe = StableDiffusionControlNetPipeline.from_pretrained(
     "runwayml/stable-diffusion-v1-5", controlnet=controlnet_depth, torch_dtype=torch.float16
 ).to("cuda")
@@ -113,7 +113,7 @@ for prompt in prompts:
 
 Summary
 
-We observed an initial generation latency of around 7-10 seconds per image using the Stable Diffusion ControlNet model at a 512x512 resolution. Reducing the input size to 256x256 resulted in a latency improvement of approximately 50%, bringing the time down to 4-5 seconds per image. Additionally, ensuring the use of a GPU reduced processing time by over 90% compared to running on a CPU. Generating images one by one minimized latency, as batch processing introduced additional delays.
+I observed an initial generation latency of around 7-10 seconds per image using the Stable Diffusion ControlNet model at a 512x512 resolution. Reducing the input size to 256x256 resulted in a latency improvement of approximately 50%, bringing the time down to 4-5 seconds per image. Additionally, ensuring the use of a GPU reduced processing time by over 90% compared to running on a CPU. Generating images one by one minimized latency, as batch processing introduced additional delays.
 
 Will Reducing the Latency Affect Image Quality?
 
@@ -126,7 +126,7 @@ Effect: Smaller images have less detail and can appear blurry or pixelated when 
 
 Trade-off: Faster generation, but the images lose sharpness and fine details.
 
-Example: If you're generating an image at 256x256, it will process faster, but the image may look less detailed than at 512x512. For example, the depth of mountains and fine texture in the landscape might be less clear.
+Example: If we're generating an image at 256x256, it will process faster, but the image may look less detailed than at 512x512. For example, the depth of mountains and fine texture in the landscape might be less clear.
 
 Expected Latency Impact: Reducing the size from 512x512 to 256x256 can cut latency by 40-60%, but the output will be less detailed.
 
@@ -155,7 +155,7 @@ Expected Latency Impact: Mixed precision can reduce latency by 20-40%, with litt
 
 
 ```
-# Enable mixed precision for faster generation
+# Enabling mixed precision for faster generation
 pipe = StableDiffusionControlNetPipeline.from_pretrained(
     "runwayml/stable-diffusion-v1-5", controlnet=controlnet_depth, torch_dtype=torch.float16
 ).to("cuda")
@@ -171,10 +171,9 @@ Effect: No direct impact on image quality. The same image quality is produced on
 
 Trade-off: Faster processing on GPU, no effect on quality.
 
-Example: Running your code on a GPU will generate the same high-quality images as on a CPU, but much faster.
+Example: Running the code on a GPU will generate the same high-quality images as on a CPU, but much faster.
 
 Expected Latency Impact: Switching from CPU to GPU can reduce latency by 90%, with no quality difference.
-
 
 
 ```
@@ -191,7 +190,7 @@ Effect: No direct impact on image quality, as the model generates the same quali
 
 Trade-off: Increased latency for batch processing, but the quality of each image remains the same.
 
-Example: If you generate 5 images at once, the time taken will increase significantly compared to generating a single image at a time. However, the quality of each image will be the same. 
+Example: If we generate 5 images at once, the time taken will increase significantly compared to generating a single image at a time. However, the quality of each image will be the same. 
 Generating 1 image takes 10 seconds.
 Generating 5 images at once might take 5x the time.
 Expected Latency Impact: Keeping batch size small reduces latency. Generating images one at a time minimizes processing time without affecting quality.
