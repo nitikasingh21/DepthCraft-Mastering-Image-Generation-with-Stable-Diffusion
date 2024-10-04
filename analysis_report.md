@@ -23,3 +23,9 @@
 ## Improvements for Future Work
 - **Super-Resolution Techniques**: Post-processing the images using super-resolution models could help retain detail in cases where input size is reduced.
 - **Additional Training**: Fine-tuning the model on custom datasets might help improve depth conditioning and generate more realistic results.
+
+# Section II
+
+## Can we generate images of different aspect ratios (use “Metadata/No
+crop/2_nocrop.png” to test this out) using SD? Comment on the generation quality
+with respect to the aspect ratio of 1:1 for the same image.
