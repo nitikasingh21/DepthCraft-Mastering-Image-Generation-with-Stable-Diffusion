@@ -1,6 +1,6 @@
-## Section I
+# Section I
 
-# Analysis Report
+## Analysis Report
 
 ## Thought Process
 
