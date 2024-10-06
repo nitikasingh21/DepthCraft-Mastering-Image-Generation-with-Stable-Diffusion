@@ -34,7 +34,7 @@ The assignment has three parts:
 
 ### Note
 
-Due to GPU limitations, the final generated images will be uploaded as soon as the GPU becomes available. The code is fully ready to generate the images, and they will be added to the repository by 5 Oct 2024.
+Due to GPU limitations, the final generated images will be uploaded as soon as the GPU becomes available. The code is fully ready to generate the images, and they will be added to the repository by 6 Oct 2024 (Done).
 
 ### Installation
 
