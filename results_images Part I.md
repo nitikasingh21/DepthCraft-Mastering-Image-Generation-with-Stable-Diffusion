@@ -36,5 +36,6 @@
 
 
 - Description: These images were generated using the prompts "A detailed landscape scene with clear outlines for the first PNG image" and "A detailed landscape scene with clear outlines for the second PNG image"" while combining them into the png_image and the canny_image.
+  
 ![generated_image_from_png_0 (1)](https://github.com/user-attachments/assets/1558cded-8493-4238-991d-50f097776214)
 ![generated_image_from_png_1 (1)](https://github.com/user-attachments/assets/44ced2eb-9437-4d6e-928a-5ae50c41dfa8)
