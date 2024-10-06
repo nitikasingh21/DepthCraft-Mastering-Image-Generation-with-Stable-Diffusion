@@ -57,8 +57,7 @@
 
 ![generated_image_Beautifulsnowy _1_1](https://github.com/user-attachments/assets/1734d88e-3e65-4bb9-ac61-d7f0d8067445)
 
-![generated_image_Beautifulsnowy_16_9](https://github.com/user-attachments/assets/95d76358-b47a-48ca-
-a069-7a9cd6838202)
+![generated_image_Beautifulsnowy_16_9](https://github.com/user-attachments/assets/12519d47-3d66-46fa-9485-243d95894caa)
 
 ![generated_image_Beautifulsnowy_9_16](https://github.com/user-attachments/assets/f8bc44b3-f8fa-4f5a-9137-03558ef65be9)
 
