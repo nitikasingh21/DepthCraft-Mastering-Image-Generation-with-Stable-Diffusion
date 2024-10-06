@@ -5,14 +5,12 @@
 
 ![generated_image_combined_0 (1)](https://github.com/user-attachments/assets/89acaed2-0d67-4fe1-b1ae-59711ff21efe)
 ![generated_image_combined_1 (1)](https://github.com/user-attachments/assets/2a6fd885-f0c4-4034-91ba-287d0f152073)
-
 - Description: These images were generated using the prompts "A detailed landscape scene with clear outlines for depth image" and "A detailed landscape scene with clear outlines for canny edges" while combining them into the npy_image and the canny_image.
 
 
 
-
 ![generated_image_from_png_0 (1)](https://github.com/user-attachments/assets/1558cded-8493-4238-991d-50f097776214)
-![generated_image_from_png_1](https://github.com/user-attachments/assets/022b6c57-4b83-4993-bbe5-59c1b5dfaeff)
+![generated_image_from_png_1 (1)](https://github.com/user-attachments/assets/44ced2eb-9437-4d6e-928a-5ae50c41dfa8)
 - Description: These images were generated using the prompts "A detailed landscape scene with clear outlines for the first PNG image" and "A detailed landscape scene with clear outlines for the second PNG image"" while combining them into the png_image and the canny_image.
 
 
